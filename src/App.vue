@@ -6,7 +6,7 @@
 
   const fetchUsers = async() => {
     try {
-      const res = await axios.get('nodetest20260107.onrender.com/api/users')
+      const res = await axios.get('https://nodetest20260107.onrender.com/api/users')
       users.value = res.data
     } catch (error) {
       console.error(error)
